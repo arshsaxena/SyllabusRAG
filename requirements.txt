@@ -1,0 +1,9 @@
+transformers
+torch
+accelerate
+bitsandbytes
+langchain
+langchain-community
+sentence-transformers
+faiss-cpu
+langchain-huggingface

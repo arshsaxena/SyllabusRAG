@@ -1,0 +1,131 @@
+Course Code: BECE302L
+Course Title: Control Systems
+Prerequisites: BECE202L
+Course Objectives:
+- To study the use of transfer function model for the analysis of physical systems and to introduce the components of control system.
+- To provide adequate knowledge in the time response of systems and steady state error analysis along with the understanding of closed-loop and open-loop system analysis in frequency domain.
+- To introduce the design of controllers and compensators for the stability analysis.
+- To introduce state variable representation of physical systems and study the stability analysis in state space approach.
+Modules:
+- Control Systems
+- Mathematical Modeling of Physical Systems
+- Time Domain Response
+- Characterization of Systems
+- Frequency Domain Response
+- Controllers and Compensators Design
+- State Space Analysis
+- Contemporary issues
+
+---
+
+Course Code: BECE306L
+Course Title: Digital Communication Systems
+Prerequisites: BECE206L, BECE206P
+Course Objectives:
+- To understand the transmitter and receiver blocks of various waveform coding techniques.
+- To analyze various line coding techniques in time and frequency domains.
+- To identify the role of baseband, bandpass formats and information theory for effective transmission of signals, combat ISI and to increase the reliability of transmission.
+- To understand the principles and importance of spread spectrum and multiple access in the context of communication.
+Modules:
+- Sampling Process
+- Waveform Coding Techniques
+- Line Codes
+- Baseband System
+- Bandpass system
+- Spread Spectrum and Multiple Access Techniques
+- Introduction to Information Theory
+- Contemporary issues
+
+---
+
+Course Code: BECE209E
+Course Title: Structured and Object-Oriented Programming
+Prerequisites: None
+Course Objectives:
+- To summarize the usefulness of branching and looping statements in one dimension and multi-dimensional array programming.
+- To equip students with dynamic memory management through an expertise on pointers.
+- To introduce students the importance of polymorphism and inheritance in an object oriented programming.
+- To teach students the way of supervising exceptions through exception handlers and files through file handlers.
+Modules:
+- C Programming Fundamentals, Arrays and Strings
+- Functions and Pointers
+- Structures and Unions
+- Overview of Object-Oriented Programming
+- Inheritance and Polymorphism
+- Generic Programming
+- Exception handling and files
+
+---
+
+Course Code: BECE309L
+Course Title: Artificial Intelligence and Machine Learning
+Prerequisites: BMAT201L
+Course Objectives:
+- To get acquainted with different types of intelligent agents.
+- To understand the importance and significance of Machine learning.
+- To preface the essentials of Deep Learning.
+Modules:
+- Foundations of Al
+- Problem-solving by Searching
+- Knowledge Representation
+- Probability reasoning and uncertainty
+- Data Preparation for Machine Learning
+- Learning from Examples
+- Deep Learning
+- Contemporary issues
+
+---
+
+Course Code: BECE301L
+Course Title: Digital Signal Processing
+Prerequisites: BECE202L
+Course Objectives:
+- To summarize and analyze the concepts of signals, systems in time and frequency domain with the corresponding transformations.
+- To inculcate the design concepts of analog, digital IIR, FIR filters.
+- To instill diverse structures for realizing digital filters.
+- To infuse the novice concepts of Multirate digital signal processing.
+Modules:
+- Discrete Signals, Systems and frequency analysis
+- Discrete Fourier Transform, Properties and its applications
+- Design of Analog Filters
+- Digital transformation of IIR filters
+- Design of FIR filters
+- Realization structures for Discrete-Time Systems
+- Multirate digital signal processing
+- Contemporary issues
+
+---
+
+Course Code: BECE355L
+Course Title: AWS for Cloud Computing
+Prerequisites: None
+Course Objectives:
+- To impart knowledge on AWS cloud management tools and services for developing cost-effective and reliable cloud solutions for real-world scenarios.
+Modules:
+- AWS Cloud Concepts
+- AWS Core Services
+- AWS Database services
+- AWS Security and Compliance
+- AWS Architectural Best Practices
+- AWS Operational Excellence
+- AWS Networking and Content Delivery
+- Contemporary Issues
+
+---
+
+Course Code: BECE305L
+Course Title: Antenna and Microwave Engineering
+Prerequisites: BECE205L
+Course Objectives:
+- To introduce and discuss the mechanism for antenna parameters, radiating principles, fundamental characteristics and design concepts of HF, UHF, Microwave antennas and arrays.
+- To design and analyse various passive and active microwave circuits.
+- To familiarize the operational principles of microwave sources and to characterize microwave networks.
+Modules:
+- EM Radiation and Antenna Parameters
+- Linear and Planar Arrays
+- HF, UHF and Microwave Antennas
+- Microwave Sources
+- Microwave Passive components
+- Microwave Passive circuits
+- Microwave Active Circuits
+- Contemporary issues
