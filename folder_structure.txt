@@ -1,9 +1,13 @@
 .
+├── README.md
 ├── data
 │   └── syllabus.json
 ├── folder_structure.txt
 ├── main.ipynb
-├── README.md
+├── report
+│   ├── report.md
+│   ├── report.pdf
+│   └── report.tex
 ├── requirements.txt
 └── training_data
     ├── faiss_index
@@ -11,4 +15,4 @@
     │   └── index.pkl
     └── knowledge_base.txt
 
-4 directories, 8 files
+5 directories, 11 files

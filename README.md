@@ -1,7 +1,7 @@
 # SyllabusRAG 📘
 
 SyllabusRAG helps you ask questions about a university syllabus easily.  
-It reads a syllabus file, builds a knowledge base, and uses an AI model to answer questions.  
+It reads a syllabus file, builds a knowledge base and uses an AI model to answer questions.  
 
 ## How It Works ⚡
 
@@ -20,15 +20,19 @@ It reads a syllabus file, builds a knowledge base, and uses an AI model to answe
 ## Folder Structure 📂
 ```text
 .
+├── README.md
 ├── data
-│   └── syllabus.json
-├── main.ipynb
-├── requirements.txt
-└── training_data
-    ├── knowledge_base.txt
-    └── faiss_index
-        ├── index.faiss
-        └── index.pkl
+│   └── syllabus.json        # Course syllabus data in JSON format
+├── main.ipynb               # Main implementation notebook
+├── report/
+│   ├── report.md            # Project report in Markdown
+│   └── report.tex           # Project report in LaTeX
+├── requirements.txt         # Python dependencies
+└── training_data/
+    ├── knowledge_base.txt   # Processed text summaries
+    └── faiss_index/
+        ├── index.faiss      # FAISS vector index
+        └── index.pkl        # Index metadata
 ```
 
 
@@ -57,7 +61,7 @@ Then, run this command in your notebook or terminal:
 1. Open Google Colab (recommended) or Jupyter Notebook with GPU support.  
 2. Clone or download this repository and upload `main.ipynb` along with `syllabus.json`.  
 3. Create a free [Hugging Face](https://huggingface.co) account and copy your access token.  
-4. In Colab, click the 🔑 icon on the left, add a new secret named `HF_TOKEN`, and paste your token.  
+4. In Colab, click the 🔑 icon on the left, add a new secret named `HF_TOKEN` and paste your token.  
 5. Open `main.ipynb` and run all cells.  
 
 This will:  
@@ -75,6 +79,14 @@ ask_question("What are the objectives of the Artifical Intelligence and Machine 
 ```
 
 ✅ After completing these steps, your setup will be ready to query the syllabus!
+
+## Project Report 📊
+
+For detailed analysis and evaluation results, check out the comprehensive project report:
+- **Markdown version**: [`report/report.md`](report/report.md)
+- **LaTeX version**: [`report/report.tex`](report/report.tex)
+
+The report includes qualitative and quantitative analysis, performance metrics and experimental results.
 
 ## Limitations ⚠️
 
