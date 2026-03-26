@@ -1,23 +1,24 @@
-# SyllabusRAG 📘
+# SyllabusRAG
 
 SyllabusRAG helps you ask questions about a university syllabus easily.  
-It reads a syllabus file, builds a knowledge base and uses an AI model to answer questions.  
+It reads a syllabus file, builds a knowledge base and uses an AI model to answer questions.
 
 ## How It Works ⚡
 
-- The syllabus data is stored in a file called `syllabus.json`.  
-- Each course is read and turned into a simple text summary.  
-- These summaries are saved in `knowledge_base.txt`.  
-- The summaries are converted into vector embeddings using **sentence-transformers**.  
-- The vectors are stored in a **FAISS index** for fast similarity search.  
-- A small AI model (`google/gemma-7b-it`) is loaded from Hugging Face.  
-- When you ask a question:  
-  - If you include a course code, the system retrieves that course directly.  
-  - If not, it finds the closest course by comparing your question with the vector index.  
-- The AI generates an answer based only on the matched course information.  
-- If nothing relevant is found, it clearly responds that it cannot answer.  
+- The syllabus data is stored in a file called `syllabus.json`.
+- Each course is read and turned into a simple text summary.
+- These summaries are saved in `knowledge_base.txt`.
+- The summaries are converted into vector embeddings using **sentence-transformers**.
+- The vectors are stored in a **FAISS index** for fast similarity search.
+- A small AI model (`google/gemma-7b-it`) is loaded from Hugging Face.
+- When you ask a question:
+    - If you include a course code, the system retrieves that course directly.
+    - If not, it finds the closest course by comparing your question with the vector index.
+- The AI generates an answer based only on the matched course information.
+- If nothing relevant is found, it clearly responds that it cannot answer.
 
 ## Folder Structure 📂
+
 ```text
 .
 ├── README.md
@@ -25,8 +26,7 @@ It reads a syllabus file, builds a knowledge base and uses an AI model to answer
 │   └── syllabus.json        # Course syllabus data in JSON format
 ├── main.ipynb               # Main implementation notebook
 ├── report/
-│   ├── report.md            # Project report in Markdown
-│   └── report.tex           # Project report in LaTeX
+│   └── report.pdf           # Project report
 ├── requirements.txt         # Python dependencies
 └── training_data/
     ├── knowledge_base.txt   # Processed text summaries
@@ -35,9 +35,10 @@ It reads a syllabus file, builds a knowledge base and uses an AI model to answer
         └── index.pkl        # Index metadata
 ```
 
-
 ## Requirements 🛠️
+
 To run the project, create a `requirements.txt` file with the following content:
+
 ```
 transformers
 torch
@@ -51,20 +52,21 @@ langchain-huggingface
 ```
 
 Then, run this command in your notebook or terminal:
+
 ```
 !pip install -r requirements.txt
 ```
 
-
 ## Setup 🚀
 
-1. Open Google Colab (recommended) or Jupyter Notebook with GPU support.  
-2. Clone or download this repository and upload `main.ipynb` along with `syllabus.json`.  
-3. Create a free [Hugging Face](https://huggingface.co) account and copy your access token.  
-4. In Colab, click the 🔑 icon on the left, add a new secret named `HF_TOKEN` and paste your token.  
-5. Open `main.ipynb` and run all cells.  
+1. Open Google Colab (recommended) or Jupyter Notebook with GPU support.
+2. Clone or download this repository and upload `main.ipynb` along with `syllabus.json`.
+3. Create a free [Hugging Face](https://huggingface.co) account and copy your access token.
+4. In Colab, click the 🔑 icon on the left, add a new secret named `HF_TOKEN` and paste your token.
+5. Open `main.ipynb` and run all cells.
 
-This will:  
+This will:
+
 - Install required dependencies ⚙️
 - Process the syllabus data 📑
 - Build a FAISS index 📊
@@ -72,6 +74,7 @@ This will:
 - Enable direct Q&A from the syllabus 💬
 
 ### Example 💡
+
 ```python
 ask_question("What is the title for BECE309L?")
 ask_question("What are the prerequisites for BECE309L?")
@@ -83,15 +86,15 @@ ask_question("What are the objectives of the Artifical Intelligence and Machine 
 ## Project Report 📊
 
 For detailed analysis and evaluation results, check out the comprehensive project report:
-- **Markdown version**: [`report/report.md`](report/report.md)
-- **LaTeX version**: [`report/report.tex`](report/report.tex)
+
+**PDF**: [`report/report.pdf`](report/report.pdf)
 
 The report includes qualitative and quantitative analysis, performance metrics and experimental results.
 
 ## Limitations ⚠️
 
-- The model is very **basic** and only lightly fine-tuned on a **small dataset**.  
-- Data pre-processing is **raw and automated**, not carefully cleaned or standardized.  
-- Because of this, the model can sometimes give **inaccurate or incomplete answers**.  
-- It works best only for **specific, direct questions** related to the syllabus.  
-- This project should be seen as a **beginner-friendly starting point**, not a production-ready system.  
+- The model is very **basic** and only lightly fine-tuned on a **small dataset**.
+- Data pre-processing is **raw and automated**, not carefully cleaned or standardized.
+- Because of this, the model can sometimes give **inaccurate or incomplete answers**.
+- It works best only for **specific, direct questions** related to the syllabus.
+- This project should be seen as a **beginner-friendly starting point**, not a production-ready system.

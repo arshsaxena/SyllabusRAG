@@ -1,569 +1,561 @@
 {
-    "courses": [
-        {
-            "course_code": "BECE302L",
-            "course_title": "Control Systems",
-            "credits": {
-                "L": 2,
-                "T": 1,
-                "P": 0,
-                "C": 3
-            },
-            "syllabus_version": "1.0",
-            "prerequisites": [
-                "BECE202L"
-            ],
-            "course_objectives": [
-                "To study the use of transfer function model for the analysis of physical systems and to introduce the components of control system.",
-                "To provide adequate knowledge in the time response of systems and steady state error analysis along with the understanding of closed-loop and open-loop system analysis in frequency domain.",
-                "To introduce the design of controllers and compensators for the stability analysis.",
-                "To introduce state variable representation of physical systems and study the stability analysis in state space approach."
-            ],
-            "course_outcomes": [
-                "Differentiate between open-loop and closed-loop control systems and obtain the transfer function from the mathematical modeling of physical systems.",
-                "Determine transient and steady state responses of the system with first and second order and also to analyze its error coefficients.",
-                "Characterize the system stability using R-H criteria and root locus techniques.",
-                "Analyze the frequency domain response of the control systems.",
-                "Design the controllers and compensators to estimate the system stability.",
-                "Analyze the system in state space model through the concept of controllability and observability."
-            ],
-            "modules": [
-                {
-                    "module_number": 1,
-                    "module_title": "Control Systems",
-                    "duration_hours": 3,
-                    "topics": [
-                        "Basic components of a control system",
-                        "Applications",
-                        "Open-loop control system and closed-loop control system",
-                        "Examples of control system (air conditioner, cruise control, phase-locked loop, etc.)",
-                        "Effects of feedback on overall gain",
-                        "Types of feedback control system",
-                        "Linear and non-linear control systems."
-                    ]
-                },
-                {
-                    "module_number": 2,
-                    "module_title": "Mathematical Modeling of Physical Systems",
-                    "duration_hours": 8,
-                    "topics": [
-                        "Difference and differential equations for LTI SISO and MIMO systems",
-                        "Mathematical modeling of electrical and mechanical systems",
-                        "Equivalence between the elements of different types of systems",
-                        "Transfer function of linear systems",
-                        "Open-loop transfer function and closed-loop transfer function",
-                        "Block diagram representation",
-                        "Block diagram reduction techniques",
-                        "Signal flow graph using Mason's gain formula."
-                    ]
-                },
-                {
-                    "module_number": 3,
-                    "module_title": "Time Domain Response",
-                    "duration_hours": 6,
-                    "topics": [
-                        "Transient response and steady state responses",
-                        "Time domain specifications",
-                        "Types of test inputs",
-                        "Response of first order and second order systems",
-                        "Steady state error",
-                        "Static error coefficients",
-                        "Generalized error coefficients."
-                    ]
-                },
-                {
-                    "module_number": 4,
-                    "module_title": "Characterization of Systems",
-                    "duration_hours": 5,
-                    "topics": [
-                        "Stability concept and definition",
-                        "Poles, Zeros order and Type of systems",
-                        "R-H criteria",
-                        "Root locus analysis."
-                    ]
-                },
-                {
-                    "module_number": 5,
-                    "module_title": "Frequency Domain Response",
-                    "duration_hours": 7,
-                    "topics": [
-                        "Frequency response Performance specifications in the frequency domain",
-                        "Phase margin and gain margin",
-                        "Bode plot",
-                        "Polar plot and Nyquist plot",
-                        "Stability analysis in frequency domain."
-                    ]
-                },
-                {
-                    "module_number": 6,
-                    "module_title": "Controllers and Compensators Design",
-                    "duration_hours": 7,
-                    "topics": [
-                        "Controllers: P, PI, PID",
-                        "Realization of basic compensators",
-                        "Cascade compensation in time domain and frequency domain",
-                        "Feedback compensation",
-                        "Design of lag, lead, lag-lead series compensators."
-                    ]
-                },
-                {
-                    "module_number": 7,
-                    "module_title": "State Space Analysis",
-                    "duration_hours": 7,
-                    "topics": [
-                        "Dynamic system modeling in state space representation: Diagonal canonical form, Jordan canonical form",
-                        "Solutions of state equations of LTI system",
-                        "Conversion from state space model to transfer function model and vice versa",
-                        "Stability analysis in state spaces: Concept of eigenvalues and eigenvectors",
-                        "State transition matrix using Cayley-Hamilton theorem",
-                        "Controllability and observability."
-                    ]
-                },
-                {
-                    "module_number": 8,
-                    "module_title": "Contemporary issues",
-                    "duration_hours": 2,
-                    "topics": []
-                }
-            ],
-            "total_lecture_hours": 45,
-            "textbooks": [
-                "Norman S. Nise, Control Systems Engineering, 2019, 8th Edition, John Wiley & Sons, New Jersey, USA"
-            ],
-            "reference_books": [
-                "Farid Golnaraghi and Benjamin C. Kuo, Automatic Control Systems, 2017, 10th Edition, McGraw-Hill Education, India.",
-                "I.J. Nagarth and M. Gopal, Control Systems Engineering, 2018, 6th Edition, New Age International Pvt. Ltd., New Delhi, India.",
-                "Gene Franklin, J. Powell and Abbas Emami-Naeini, Feedback Control of Dynamic Systems, 2019, 8th Edition, Pearson Education, New Delhi, India."
-            ],
-            "mode_of_evaluation": "Continuous Assessment Test, Digital Assignment, Quiz and Final Assessment Test",
-            "lab_component": null
-        },
-        {
-            "course_code": "BECE309L",
-            "course_title": "Artificial Intelligence and Machine Learning",
-            "credits": {
-                "L": 3,
-                "T": 0,
-                "P": 0,
-                "C": 3
-            },
-            "syllabus_version": "1.0",
-            "prerequisites": [
-                "BMAT201L"
-            ],
-            "course_objectives": [
-                "To get acquainted with different types of intelligent agents.",
-                "To understand the importance and significance of Machine learning.",
-                "To preface the essentials of Deep Learning."
-            ],
-            "course_outcomes": [
-                "Comprehend different intelligent agents and its variants.",
-                "Solve the real-world problem using the various search algorithms.",
-                "Infuse various symbolic knowledge representation.",
-                "Employ intelligent agents for decision making.",
-                "Handle real-time issues using various learning methodologies.",
-                "Apply deep learning algorithms for solving real-world problems."
-            ],
-            "modules": [
-                {
-                    "module_number": 1,
-                    "module_title": "Foundations of Al",
-                    "duration_hours": 4,
-                    "topics": [
-                        "Introduction - Agents and rationality",
-                        "Task environment",
-                        "Agent Architecture Types."
-                    ]
-                },
-                {
-                    "module_number": 2,
-                    "module_title": "Problem-solving by Searching",
-                    "duration_hours": 7,
-                    "topics": [
-                        "Search Space",
-                        "Search algorithms, strategies",
-                        "Search in complex environments."
-                    ]
-                },
-                {
-                    "module_number": 3,
-                    "module_title": "Knowledge Representation",
-                    "duration_hours": 6,
-                    "topics": [
-                        "Knowledge-based agents",
-                        "Agents based on Propositional Logic",
-                        "First-order logic."
-                    ]
-                },
-                {
-                    "module_number": 4,
-                    "module_title": "Probability reasoning and uncertainty",
-                    "duration_hours": 6,
-                    "topics": [
-                        "Quantifying uncertainty",
-                        "Knowledge representation in uncertainty",
-                        "Decision making - Simple, complex."
-                    ]
-                },
-                {
-                    "module_number": 5,
-                    "module_title": "Data Preparation for Machine Learning",
-                    "duration_hours": 4,
-                    "topics": [
-                        "Basics of Vectors & Matrices",
-                        "Overview: Data Cleaning, Integration, Transformation & Reduction."
-                    ]
-                },
-                {
-                    "module_number": 6,
-                    "module_title": "Learning from Examples",
-                    "duration_hours": 9,
-                    "topics": [
-                        "Forms of Learning",
-                        "Dimensionality reduction",
-                        "Regression",
-                        "Statistical Methods: Naïve-Bayes, Nearest Neighbor, Decision Trees - Random Forest",
-                        "Clustering",
-                        "Ensemble Learning",
-                        "Case studies - Machine Learning in Signal Processing, Intelligent Antenna."
-                    ]
-                },
-                {
-                    "module_number": 7,
-                    "module_title": "Deep Learning",
-                    "duration_hours": 7,
-                    "topics": [
-                        "Simple Feed Forward Networks",
-                        "Computational graphs for Deep Learning",
-                        "Convolutional Networks",
-                        "Recurrent Neural Networks",
-                        "Kernel Machines",
-                        "Hidden Markov Models."
-                    ]
-                },
-                {
-                    "module_number": 8,
-                    "module_title": "Contemporary issues",
-                    "duration_hours": 2,
-                    "topics": []
-                }
-            ],
-            "total_lecture_hours": 45,
-            "textbooks": [
-                "Stuart J Russell, Peter Norwig, Artificial Intelligence - A modern approach, 2015, 3rd edition, Pearson, India."
-            ],
-            "reference_books": [
-                "Vinod Chandra S.S, Anand Hareendran S., Artificial Intelligence: Principles and Applications, 2020, 2nd Edition, PHI Learning Pvt. Ltd., India.",
-                "Alpaydin ethem, Introduction to Machine Learning, 2019, 3rd edition, PHI Learning Pvt. Ltd., India."
-            ],
-            "mode_of_evaluation": "Continuous Assessment Test, Digital Assignment, Quiz and Final Assessment Test",
-            "lab_component": null
-        },
-        {
-            "course_code": "BECE301L",
-            "course_title": "Digital Signal Processing",
-            "credits": {
-                "L": 3,
-                "T": 0,
-                "P": 0,
-                "C": 3
-            },
-            "syllabus_version": "1.0",
-            "prerequisites": [
-                "BECE202L"
-            ],
-            "course_objectives": [
-                "To summarize and analyze the concepts of signals, systems in time and frequency domain with the corresponding transformations.",
-                "To inculcate the design concepts of analog, digital IIR, FIR filters.",
-                "To instill diverse structures for realizing digital filters.",
-                "To infuse the novice concepts of Multirate digital signal processing."
-            ],
-            "course_outcomes": [
-                "Classify and analyse Signals & Systems along with their time and frequency domain transformations.",
-                "Simplify Fourier transform computations using swift algorithms.",
-                "Examine various analog filter design techniques and their digitization.",
-                "Design FIR and IIR digital filters.",
-                "Realize digital filters using various system interconnections.",
-                "Design and formulate Multirate systems."
-            ],
-            "modules": [
-                {
-                    "module_number": 1,
-                    "module_title": "Discrete Signals, Systems and frequency analysis",
-                    "duration_hours": 6,
-                    "topics": [
-                        "Review of Discrete-Time Signals & Systems and frequency analysis",
-                        "Z- transform: ROC, stability / causality analysis",
-                        "Frequency domain sampling",
-                        "Sampling rate conversion",
-                        "Aperiodic correlation estimation",
-                        "Cepstrum processing",
-                        "Band limited discrete time signals."
-                    ]
-                },
-                {
-                    "module_number": 2,
-                    "module_title": "Discrete Fourier Transform, Properties and its applications",
-                    "duration_hours": 6,
-                    "topics": [
-                        "DFT - Properties",
-                        "Linear filtering methods",
-                        "Frequency analysis of signals using DFT",
-                        "FFT Algorithm - Radix-2 FFT, Sparse FFT",
-                        "Practical applications."
-                    ]
-                },
-                {
-                    "module_number": 3,
-                    "module_title": "Design of Analog Filters",
-                    "duration_hours": 6,
-                    "topics": [
-                        "Design techniques for analog filter - Butterworth and Chebyshev approximations",
-                        "Frequency transformation, Properties",
-                        "Constant group delay and zero phase filters."
-                    ]
-                },
-                {
-                    "module_number": 4,
-                    "module_title": "Digital transformation of IIR filters",
-                    "duration_hours": 5,
-                    "topics": [
-                        "IIR filter design: Bilinear transformation, Impulse Invariance",
-                        "Spectral transformation of Digital filters"
-                    ]
-                },
-                {
-                    "module_number": 5,
-                    "module_title": "Design of FIR filters",
-                    "duration_hours": 5,
-                    "topics": [
-                        "FIR Filter Design: Design characteristics of FIR filters with linear-phase",
-                        "Frequency response of linear phase FIR filters",
-                        "Design of FIR filters using windowing techniques: Rectangular, Bartlett, Hamming, Hanning, Blackmann, Kaiser",
-                        "Phase delay, Group delay"
-                    ]
-                },
-                {
-                    "module_number": 6,
-                    "module_title": "Realization structures for Discrete-Time Systems",
-                    "duration_hours": 7,
-                    "topics": [
-                        "Direct, Cascade, Parallel, Lattice and Lattice Ladder Structures: All pass filter",
-                        "IIR tapped-cascaded structure.",
-                        "Parallel all pass realization of IIR systems."
-                    ]
-                },
-                {
-                    "module_number": 7,
-                    "module_title": "Multirate digital signal processing",
-                    "duration_hours": 8,
-                    "topics": [
-                        "Introduction-Implementation of Sampling Rate Conversion: Polyphase Filter Structures",
-                        "Interchange of Filters and Downsamplers / Upsamplers",
-                        "Polyphase Structures for Decimation and Interpolation Filters",
-                        "Structures for Rational Sampling Rate Conversion.",
-                        "Discrete Cosine Transform",
-                        "Wavelet Transform"
-                    ]
-                },
-                {
-                    "module_number": 8,
-                    "module_title": "Contemporary issues",
-                    "duration_hours": 2,
-                    "topics": []
-                }
-            ],
-            "total_lecture_hours": 45,
-            "textbooks": [
-                "John G. Proakis, Dimitris G Manolakis, Digital Signal Processing: Principles, Algorithms and Applications, 2022, 5th Edition, Pearson, USA"
-            ],
-            "reference_books": [
-                "A textbook of Digital Signal Processing, R.S.Kaler, M.Kulkarni, Umesh Gupta, 1st edition, 2019, Dream tech Press, Wiley, India",
-                "James McClellan, Ronal Schaeffer, Mark Yoder, Digital Signal Processing first, 2016, 2nd edition, Pearson, USA",
-                "Lizhe Tan, Jean Jiang, Digital Signal Processing: Fundamentals and applications, 3rd edition, 2018, Academic Press, USA",
-                "S.K.Mitra, Digital Signal Processing, 2013, 4th edition, TMH, New Delhi, India"
-            ],
-            "mode_of_evaluation": "Continuous Assessment Test, Digital Assignment, Quiz and Final Assessment Test",
-            "lab_component": {
-                "lab_course_code": "BECE301P",
-                "total_lab_hours": 30,
-                "mode_of_assessment": "Continuous Assessment and Final Assessment Test",
-                "experiments": [
-                    {
-                        "experiment_number": 1,
-                        "description": "Introduction to TMS320C6748 processor and code composer studio IDE.",
-                        "duration_hours": 2
-                    },
-                    {
-                        "experiment_number": 2,
-                        "description": "Generation of elementary signals and illustration of simple signal processing operations on TMS320C6748 processor",
-                        "duration_hours": 6
-                    },
-                    {
-                        "experiment_number": 3,
-                        "description": "Sampling and Reconstruction of CT signals, DTFT analysis",
-                        "duration_hours": 6
-                    },
-                    {
-                        "experiment_number": 4,
-                        "description": "Biomedical / Speech / Audio Signal Analysis",
-                        "duration_hours": 6
-                    },
-                    {
-                        "experiment_number": 5,
-                        "description": "Computational analysis using FFT",
-                        "duration_hours": 3
-                    },
-                    {
-                        "experiment_number": 6,
-                        "description": "Design of IIR filter",
-                        "duration_hours": 3
-                    },
-                    {
-                        "experiment_number": 7,
-                        "description": "Design of FIR filter using windowing techniques",
-                        "duration_hours": 4
-                    }
-                ]
-            }
-        },
-        {
-            "course_code": "BECE355L",
-            "course_title": "AWS for Cloud Computing",
-            "credits": {
-                "L": 3,
-                "T": 0,
-                "P": 0,
-                "C": 3
-            },
-            "syllabus_version": "1.0",
-            "prerequisites": [],
-            "course_objectives": [
-                "To impart knowledge on AWS cloud management tools and services for developing cost-effective and reliable cloud solutions for real-world scenarios."
-            ],
-            "course_outcomes": [
-                "Comprehend the AWS cloud concepts and service models.",
-                "Comprehend and differentiate between various AWS core, database services and its applications.",
-                "Apply appropriate security and compliance measures for cloud applications.",
-                "Design scalable, fault-tolerant and cost-effective AWS solutions using core services.",
-                "Apply AWS management tools, monitoring services to automate and troubleshoot tasks.",
-                "Configure and manage AWS networking and content delivery services."
-            ],
-            "modules": [
-                {
-                    "module_number": 1,
-                    "module_title": "AWS Cloud Concepts",
-                    "duration_hours": 6,
-                    "topics": [
-                        "Introduction to Cloud Computing",
-                        "Overview of AWS Cloud",
-                        "Cloud Service Models: IaaS, PaaS, SaaS",
-                        "Cloud Deployment Models: Public, Private, Hybrid",
-                        "AWS Global Infrastructure",
-                        "AWS Shared Responsibility Model."
-                    ]
-                },
-                {
-                    "module_number": 2,
-                    "module_title": "AWS Core Services",
-                    "duration_hours": 8,
-                    "topics": [
-                        "Amazon EC2 (Elastic Compute Cloud)",
-                        "Amazon S3 (Simple Storage Service)",
-                        "Amazon RDS (Relational Database Service)",
-                        "Amazon VPC (Virtual Private Cloud)",
-                        "Amazon SQS (Simple Queue Service)",
-                        "Amazon SNS (Simple Notification Service)."
-                    ]
-                },
-                {
-                    "module_number": 3,
-                    "module_title": "AWS Database services",
-                    "duration_hours": 6,
-                    "topics": [
-                        "AWS Lambda",
-                        "Amazon Dynamo DB",
-                        "Amazon ECS (Elastic Container Service)",
-                        "Amazon S3 Glacier",
-                        "Amazon Kinesis",
-                        "Amazon Redshift",
-                        "Amazon EMR (Elastic MapReduce)",
-                        "AWS Disaster Recovery and Backup."
-                    ]
-                },
-                {
-                    "module_number": 4,
-                    "module_title": "AWS Security and Compliance",
-                    "duration_hours": 4,
-                    "topics": [
-                        "AWS Identity and Access Management (IAM)",
-                        "AWS Shared Responsibility Model in Security",
-                        "AWS Key Management Service (KMS)",
-                        "AWS Inspector",
-                        "AWS Organizations",
-                        "AWS Trusted Advisor",
-                        "Compliance on AWS."
-                    ]
-                },
-                {
-                    "module_number": 5,
-                    "module_title": "AWS Architectural Best Practices",
-                    "duration_hours": 6,
-                    "topics": [
-                        "AWS Well-Architected Framework",
-                        "Design Principles for AWS Cloud Architectures",
-                        "Scalability and Elasticity",
-                        "High Availability and Fault Tolerance",
-                        "Cost optimization and AWS pricing",
-                        "Performance Efficiency."
-                    ]
-                },
-                {
-                    "module_number": 6,
-                    "module_title": "AWS Operational Excellence",
-                    "duration_hours": 6,
-                    "topics": [
-                        "AWS Management Console",
-                        "AWS CLI (Command Line Interface)",
-                        "AWS SDKs",
-                        "AWS Cloud Formation",
-                        "AWS Trusted Advisor",
-                        "AWS Cloud Watch",
-                        "AWS Systems Manager."
-                    ]
-                },
-                {
-                    "module_number": 7,
-                    "module_title": "AWS Networking and Content Delivery",
-                    "duration_hours": 7,
-                    "topics": [
-                        "Amazon Route 53",
-                        "Amazon Cloud Front",
-                        "Amazon API Gateway",
-                        "AWS Direct Connect",
-                        "AWS VPN (Virtual Private Network)",
-                        "AWS Transit Gateway."
-                    ]
-                },
-                {
-                    "module_number": 8,
-                    "module_title": "Contemporary Issues",
-                    "duration_hours": 2,
-                    "topics": [
-                        "Guest Lecture from Industry Expert"
-                    ]
-                }
-            ],
-            "total_lecture_hours": 45,
-            "textbooks": [
-                "Saurabh Shrivastava, Neelanjali Srivastav, Alberto Artasanchez, 'AWS for Solutions Architects', 2nd edition, Packt Publishing, 2023.",
-                "Ashish Prajapati, Juan Carlos Ruiz, Marco Tamassia, 'AWS Cloud Computing Concepts and Tech Analogies', Packt Publishing, 2023."
-            ],
-            "reference_books": [
-                "Logan Song, 'The Self-Taught Cloud Computing Engineer', Packt Publishing, 2023"
-            ],
-            "mode_of_evaluation": "CAT / Assignment / Quiz/FAT/Project / Seminar",
-            "lab_component": null
-        }
-    ]
+	"courses": [
+		{
+			"course_code": "BECE302L",
+			"course_title": "Control Systems",
+			"credits": {
+				"L": 2,
+				"T": 1,
+				"P": 0,
+				"C": 3
+			},
+			"syllabus_version": "1.0",
+			"prerequisites": ["BECE202L"],
+			"course_objectives": [
+				"To study the use of transfer function model for the analysis of physical systems and to introduce the components of control system.",
+				"To provide adequate knowledge in the time response of systems and steady state error analysis along with the understanding of closed-loop and open-loop system analysis in frequency domain.",
+				"To introduce the design of controllers and compensators for the stability analysis.",
+				"To introduce state variable representation of physical systems and study the stability analysis in state space approach."
+			],
+			"course_outcomes": [
+				"Differentiate between open-loop and closed-loop control systems and obtain the transfer function from the mathematical modeling of physical systems.",
+				"Determine transient and steady state responses of the system with first and second order and also to analyze its error coefficients.",
+				"Characterize the system stability using R-H criteria and root locus techniques.",
+				"Analyze the frequency domain response of the control systems.",
+				"Design the controllers and compensators to estimate the system stability.",
+				"Analyze the system in state space model through the concept of controllability and observability."
+			],
+			"modules": [
+				{
+					"module_number": 1,
+					"module_title": "Control Systems",
+					"duration_hours": 3,
+					"topics": [
+						"Basic components of a control system",
+						"Applications",
+						"Open-loop control system and closed-loop control system",
+						"Examples of control system (air conditioner, cruise control, phase-locked loop, etc.)",
+						"Effects of feedback on overall gain",
+						"Types of feedback control system",
+						"Linear and non-linear control systems."
+					]
+				},
+				{
+					"module_number": 2,
+					"module_title": "Mathematical Modeling of Physical Systems",
+					"duration_hours": 8,
+					"topics": [
+						"Difference and differential equations for LTI SISO and MIMO systems",
+						"Mathematical modeling of electrical and mechanical systems",
+						"Equivalence between the elements of different types of systems",
+						"Transfer function of linear systems",
+						"Open-loop transfer function and closed-loop transfer function",
+						"Block diagram representation",
+						"Block diagram reduction techniques",
+						"Signal flow graph using Mason's gain formula."
+					]
+				},
+				{
+					"module_number": 3,
+					"module_title": "Time Domain Response",
+					"duration_hours": 6,
+					"topics": [
+						"Transient response and steady state responses",
+						"Time domain specifications",
+						"Types of test inputs",
+						"Response of first order and second order systems",
+						"Steady state error",
+						"Static error coefficients",
+						"Generalized error coefficients."
+					]
+				},
+				{
+					"module_number": 4,
+					"module_title": "Characterization of Systems",
+					"duration_hours": 5,
+					"topics": [
+						"Stability concept and definition",
+						"Poles, Zeros order and Type of systems",
+						"R-H criteria",
+						"Root locus analysis."
+					]
+				},
+				{
+					"module_number": 5,
+					"module_title": "Frequency Domain Response",
+					"duration_hours": 7,
+					"topics": [
+						"Frequency response Performance specifications in the frequency domain",
+						"Phase margin and gain margin",
+						"Bode plot",
+						"Polar plot and Nyquist plot",
+						"Stability analysis in frequency domain."
+					]
+				},
+				{
+					"module_number": 6,
+					"module_title": "Controllers and Compensators Design",
+					"duration_hours": 7,
+					"topics": [
+						"Controllers: P, PI, PID",
+						"Realization of basic compensators",
+						"Cascade compensation in time domain and frequency domain",
+						"Feedback compensation",
+						"Design of lag, lead, lag-lead series compensators."
+					]
+				},
+				{
+					"module_number": 7,
+					"module_title": "State Space Analysis",
+					"duration_hours": 7,
+					"topics": [
+						"Dynamic system modeling in state space representation: Diagonal canonical form, Jordan canonical form",
+						"Solutions of state equations of LTI system",
+						"Conversion from state space model to transfer function model and vice versa",
+						"Stability analysis in state spaces: Concept of eigenvalues and eigenvectors",
+						"State transition matrix using Cayley-Hamilton theorem",
+						"Controllability and observability."
+					]
+				},
+				{
+					"module_number": 8,
+					"module_title": "Contemporary issues",
+					"duration_hours": 2,
+					"topics": []
+				}
+			],
+			"total_lecture_hours": 45,
+			"textbooks": [
+				"Norman S. Nise, Control Systems Engineering, 2019, 8th Edition, John Wiley & Sons, New Jersey, USA"
+			],
+			"reference_books": [
+				"Farid Golnaraghi and Benjamin C. Kuo, Automatic Control Systems, 2017, 10th Edition, McGraw-Hill Education, India.",
+				"I.J. Nagarth and M. Gopal, Control Systems Engineering, 2018, 6th Edition, New Age International Pvt. Ltd., New Delhi, India.",
+				"Gene Franklin, J. Powell and Abbas Emami-Naeini, Feedback Control of Dynamic Systems, 2019, 8th Edition, Pearson Education, New Delhi, India."
+			],
+			"mode_of_evaluation": "Continuous Assessment Test, Digital Assignment, Quiz and Final Assessment Test",
+			"lab_component": null
+		},
+		{
+			"course_code": "BECE309L",
+			"course_title": "Artificial Intelligence and Machine Learning",
+			"credits": {
+				"L": 3,
+				"T": 0,
+				"P": 0,
+				"C": 3
+			},
+			"syllabus_version": "1.0",
+			"prerequisites": ["BMAT201L"],
+			"course_objectives": [
+				"To get acquainted with different types of intelligent agents.",
+				"To understand the importance and significance of Machine learning.",
+				"To preface the essentials of Deep Learning."
+			],
+			"course_outcomes": [
+				"Comprehend different intelligent agents and its variants.",
+				"Solve the real-world problem using the various search algorithms.",
+				"Infuse various symbolic knowledge representation.",
+				"Employ intelligent agents for decision making.",
+				"Handle real-time issues using various learning methodologies.",
+				"Apply deep learning algorithms for solving real-world problems."
+			],
+			"modules": [
+				{
+					"module_number": 1,
+					"module_title": "Foundations of Al",
+					"duration_hours": 4,
+					"topics": [
+						"Introduction - Agents and rationality",
+						"Task environment",
+						"Agent Architecture Types."
+					]
+				},
+				{
+					"module_number": 2,
+					"module_title": "Problem-solving by Searching",
+					"duration_hours": 7,
+					"topics": [
+						"Search Space",
+						"Search algorithms, strategies",
+						"Search in complex environments."
+					]
+				},
+				{
+					"module_number": 3,
+					"module_title": "Knowledge Representation",
+					"duration_hours": 6,
+					"topics": [
+						"Knowledge-based agents",
+						"Agents based on Propositional Logic",
+						"First-order logic."
+					]
+				},
+				{
+					"module_number": 4,
+					"module_title": "Probability reasoning and uncertainty",
+					"duration_hours": 6,
+					"topics": [
+						"Quantifying uncertainty",
+						"Knowledge representation in uncertainty",
+						"Decision making - Simple, complex."
+					]
+				},
+				{
+					"module_number": 5,
+					"module_title": "Data Preparation for Machine Learning",
+					"duration_hours": 4,
+					"topics": [
+						"Basics of Vectors & Matrices",
+						"Overview: Data Cleaning, Integration, Transformation & Reduction."
+					]
+				},
+				{
+					"module_number": 6,
+					"module_title": "Learning from Examples",
+					"duration_hours": 9,
+					"topics": [
+						"Forms of Learning",
+						"Dimensionality reduction",
+						"Regression",
+						"Statistical Methods: Naïve-Bayes, Nearest Neighbor, Decision Trees - Random Forest",
+						"Clustering",
+						"Ensemble Learning",
+						"Case studies - Machine Learning in Signal Processing, Intelligent Antenna."
+					]
+				},
+				{
+					"module_number": 7,
+					"module_title": "Deep Learning",
+					"duration_hours": 7,
+					"topics": [
+						"Simple Feed Forward Networks",
+						"Computational graphs for Deep Learning",
+						"Convolutional Networks",
+						"Recurrent Neural Networks",
+						"Kernel Machines",
+						"Hidden Markov Models."
+					]
+				},
+				{
+					"module_number": 8,
+					"module_title": "Contemporary issues",
+					"duration_hours": 2,
+					"topics": []
+				}
+			],
+			"total_lecture_hours": 45,
+			"textbooks": [
+				"Stuart J Russell, Peter Norwig, Artificial Intelligence - A modern approach, 2015, 3rd edition, Pearson, India."
+			],
+			"reference_books": [
+				"Vinod Chandra S.S, Anand Hareendran S., Artificial Intelligence: Principles and Applications, 2020, 2nd Edition, PHI Learning Pvt. Ltd., India.",
+				"Alpaydin ethem, Introduction to Machine Learning, 2019, 3rd edition, PHI Learning Pvt. Ltd., India."
+			],
+			"mode_of_evaluation": "Continuous Assessment Test, Digital Assignment, Quiz and Final Assessment Test",
+			"lab_component": null
+		},
+		{
+			"course_code": "BECE301L",
+			"course_title": "Digital Signal Processing",
+			"credits": {
+				"L": 3,
+				"T": 0,
+				"P": 0,
+				"C": 3
+			},
+			"syllabus_version": "1.0",
+			"prerequisites": ["BECE202L"],
+			"course_objectives": [
+				"To summarize and analyze the concepts of signals, systems in time and frequency domain with the corresponding transformations.",
+				"To inculcate the design concepts of analog, digital IIR, FIR filters.",
+				"To instill diverse structures for realizing digital filters.",
+				"To infuse the novice concepts of Multirate digital signal processing."
+			],
+			"course_outcomes": [
+				"Classify and analyse Signals & Systems along with their time and frequency domain transformations.",
+				"Simplify Fourier transform computations using swift algorithms.",
+				"Examine various analog filter design techniques and their digitization.",
+				"Design FIR and IIR digital filters.",
+				"Realize digital filters using various system interconnections.",
+				"Design and formulate Multirate systems."
+			],
+			"modules": [
+				{
+					"module_number": 1,
+					"module_title": "Discrete Signals, Systems and frequency analysis",
+					"duration_hours": 6,
+					"topics": [
+						"Review of Discrete-Time Signals & Systems and frequency analysis",
+						"Z- transform: ROC, stability / causality analysis",
+						"Frequency domain sampling",
+						"Sampling rate conversion",
+						"Aperiodic correlation estimation",
+						"Cepstrum processing",
+						"Band limited discrete time signals."
+					]
+				},
+				{
+					"module_number": 2,
+					"module_title": "Discrete Fourier Transform, Properties and its applications",
+					"duration_hours": 6,
+					"topics": [
+						"DFT - Properties",
+						"Linear filtering methods",
+						"Frequency analysis of signals using DFT",
+						"FFT Algorithm - Radix-2 FFT, Sparse FFT",
+						"Practical applications."
+					]
+				},
+				{
+					"module_number": 3,
+					"module_title": "Design of Analog Filters",
+					"duration_hours": 6,
+					"topics": [
+						"Design techniques for analog filter - Butterworth and Chebyshev approximations",
+						"Frequency transformation, Properties",
+						"Constant group delay and zero phase filters."
+					]
+				},
+				{
+					"module_number": 4,
+					"module_title": "Digital transformation of IIR filters",
+					"duration_hours": 5,
+					"topics": [
+						"IIR filter design: Bilinear transformation, Impulse Invariance",
+						"Spectral transformation of Digital filters"
+					]
+				},
+				{
+					"module_number": 5,
+					"module_title": "Design of FIR filters",
+					"duration_hours": 5,
+					"topics": [
+						"FIR Filter Design: Design characteristics of FIR filters with linear-phase",
+						"Frequency response of linear phase FIR filters",
+						"Design of FIR filters using windowing techniques: Rectangular, Bartlett, Hamming, Hanning, Blackmann, Kaiser",
+						"Phase delay, Group delay"
+					]
+				},
+				{
+					"module_number": 6,
+					"module_title": "Realization structures for Discrete-Time Systems",
+					"duration_hours": 7,
+					"topics": [
+						"Direct, Cascade, Parallel, Lattice and Lattice Ladder Structures: All pass filter",
+						"IIR tapped-cascaded structure.",
+						"Parallel all pass realization of IIR systems."
+					]
+				},
+				{
+					"module_number": 7,
+					"module_title": "Multirate digital signal processing",
+					"duration_hours": 8,
+					"topics": [
+						"Introduction-Implementation of Sampling Rate Conversion: Polyphase Filter Structures",
+						"Interchange of Filters and Downsamplers / Upsamplers",
+						"Polyphase Structures for Decimation and Interpolation Filters",
+						"Structures for Rational Sampling Rate Conversion.",
+						"Discrete Cosine Transform",
+						"Wavelet Transform"
+					]
+				},
+				{
+					"module_number": 8,
+					"module_title": "Contemporary issues",
+					"duration_hours": 2,
+					"topics": []
+				}
+			],
+			"total_lecture_hours": 45,
+			"textbooks": [
+				"John G. Proakis, Dimitris G Manolakis, Digital Signal Processing: Principles, Algorithms and Applications, 2022, 5th Edition, Pearson, USA"
+			],
+			"reference_books": [
+				"A textbook of Digital Signal Processing, R.S.Kaler, M.Kulkarni, Umesh Gupta, 1st edition, 2019, Dream tech Press, Wiley, India",
+				"James McClellan, Ronal Schaeffer, Mark Yoder, Digital Signal Processing first, 2016, 2nd edition, Pearson, USA",
+				"Lizhe Tan, Jean Jiang, Digital Signal Processing: Fundamentals and applications, 3rd edition, 2018, Academic Press, USA",
+				"S.K.Mitra, Digital Signal Processing, 2013, 4th edition, TMH, New Delhi, India"
+			],
+			"mode_of_evaluation": "Continuous Assessment Test, Digital Assignment, Quiz and Final Assessment Test",
+			"lab_component": {
+				"lab_course_code": "BECE301P",
+				"total_lab_hours": 30,
+				"mode_of_assessment": "Continuous Assessment and Final Assessment Test",
+				"experiments": [
+					{
+						"experiment_number": 1,
+						"description": "Introduction to TMS320C6748 processor and code composer studio IDE.",
+						"duration_hours": 2
+					},
+					{
+						"experiment_number": 2,
+						"description": "Generation of elementary signals and illustration of simple signal processing operations on TMS320C6748 processor",
+						"duration_hours": 6
+					},
+					{
+						"experiment_number": 3,
+						"description": "Sampling and Reconstruction of CT signals, DTFT analysis",
+						"duration_hours": 6
+					},
+					{
+						"experiment_number": 4,
+						"description": "Biomedical / Speech / Audio Signal Analysis",
+						"duration_hours": 6
+					},
+					{
+						"experiment_number": 5,
+						"description": "Computational analysis using FFT",
+						"duration_hours": 3
+					},
+					{
+						"experiment_number": 6,
+						"description": "Design of IIR filter",
+						"duration_hours": 3
+					},
+					{
+						"experiment_number": 7,
+						"description": "Design of FIR filter using windowing techniques",
+						"duration_hours": 4
+					}
+				]
+			}
+		},
+		{
+			"course_code": "BECE355L",
+			"course_title": "AWS for Cloud Computing",
+			"credits": {
+				"L": 3,
+				"T": 0,
+				"P": 0,
+				"C": 3
+			},
+			"syllabus_version": "1.0",
+			"prerequisites": [],
+			"course_objectives": [
+				"To impart knowledge on AWS cloud management tools and services for developing cost-effective and reliable cloud solutions for real-world scenarios."
+			],
+			"course_outcomes": [
+				"Comprehend the AWS cloud concepts and service models.",
+				"Comprehend and differentiate between various AWS core, database services and its applications.",
+				"Apply appropriate security and compliance measures for cloud applications.",
+				"Design scalable, fault-tolerant and cost-effective AWS solutions using core services.",
+				"Apply AWS management tools, monitoring services to automate and troubleshoot tasks.",
+				"Configure and manage AWS networking and content delivery services."
+			],
+			"modules": [
+				{
+					"module_number": 1,
+					"module_title": "AWS Cloud Concepts",
+					"duration_hours": 6,
+					"topics": [
+						"Introduction to Cloud Computing",
+						"Overview of AWS Cloud",
+						"Cloud Service Models: IaaS, PaaS, SaaS",
+						"Cloud Deployment Models: Public, Private, Hybrid",
+						"AWS Global Infrastructure",
+						"AWS Shared Responsibility Model."
+					]
+				},
+				{
+					"module_number": 2,
+					"module_title": "AWS Core Services",
+					"duration_hours": 8,
+					"topics": [
+						"Amazon EC2 (Elastic Compute Cloud)",
+						"Amazon S3 (Simple Storage Service)",
+						"Amazon RDS (Relational Database Service)",
+						"Amazon VPC (Virtual Private Cloud)",
+						"Amazon SQS (Simple Queue Service)",
+						"Amazon SNS (Simple Notification Service)."
+					]
+				},
+				{
+					"module_number": 3,
+					"module_title": "AWS Database services",
+					"duration_hours": 6,
+					"topics": [
+						"AWS Lambda",
+						"Amazon Dynamo DB",
+						"Amazon ECS (Elastic Container Service)",
+						"Amazon S3 Glacier",
+						"Amazon Kinesis",
+						"Amazon Redshift",
+						"Amazon EMR (Elastic MapReduce)",
+						"AWS Disaster Recovery and Backup."
+					]
+				},
+				{
+					"module_number": 4,
+					"module_title": "AWS Security and Compliance",
+					"duration_hours": 4,
+					"topics": [
+						"AWS Identity and Access Management (IAM)",
+						"AWS Shared Responsibility Model in Security",
+						"AWS Key Management Service (KMS)",
+						"AWS Inspector",
+						"AWS Organizations",
+						"AWS Trusted Advisor",
+						"Compliance on AWS."
+					]
+				},
+				{
+					"module_number": 5,
+					"module_title": "AWS Architectural Best Practices",
+					"duration_hours": 6,
+					"topics": [
+						"AWS Well-Architected Framework",
+						"Design Principles for AWS Cloud Architectures",
+						"Scalability and Elasticity",
+						"High Availability and Fault Tolerance",
+						"Cost optimization and AWS pricing",
+						"Performance Efficiency."
+					]
+				},
+				{
+					"module_number": 6,
+					"module_title": "AWS Operational Excellence",
+					"duration_hours": 6,
+					"topics": [
+						"AWS Management Console",
+						"AWS CLI (Command Line Interface)",
+						"AWS SDKs",
+						"AWS Cloud Formation",
+						"AWS Trusted Advisor",
+						"AWS Cloud Watch",
+						"AWS Systems Manager."
+					]
+				},
+				{
+					"module_number": 7,
+					"module_title": "AWS Networking and Content Delivery",
+					"duration_hours": 7,
+					"topics": [
+						"Amazon Route 53",
+						"Amazon Cloud Front",
+						"Amazon API Gateway",
+						"AWS Direct Connect",
+						"AWS VPN (Virtual Private Network)",
+						"AWS Transit Gateway."
+					]
+				},
+				{
+					"module_number": 8,
+					"module_title": "Contemporary Issues",
+					"duration_hours": 2,
+					"topics": ["Guest Lecture from Industry Expert"]
+				}
+			],
+			"total_lecture_hours": 45,
+			"textbooks": [
+				"Saurabh Shrivastava, Neelanjali Srivastav, Alberto Artasanchez, 'AWS for Solutions Architects', 2nd edition, Packt Publishing, 2023.",
+				"Ashish Prajapati, Juan Carlos Ruiz, Marco Tamassia, 'AWS Cloud Computing Concepts and Tech Analogies', Packt Publishing, 2023."
+			],
+			"reference_books": [
+				"Logan Song, 'The Self-Taught Cloud Computing Engineer', Packt Publishing, 2023"
+			],
+			"mode_of_evaluation": "CAT / Assignment / Quiz/FAT/Project / Seminar",
+			"lab_component": null
+		}
+	]
 }

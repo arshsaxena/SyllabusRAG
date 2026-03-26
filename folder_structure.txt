@@ -5,9 +5,7 @@
 ├── folder_structure.txt
 ├── main.ipynb
 ├── report
-│   ├── report.md
-│   ├── report.pdf
-│   └── report.tex
+│   └── report.pdf
 ├── requirements.txt
 └── training_data
     ├── faiss_index
@@ -15,4 +13,4 @@
     │   └── index.pkl
     └── knowledge_base.txt
 
-5 directories, 11 files
+5 directories, 9 files
